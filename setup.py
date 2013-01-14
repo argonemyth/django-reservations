@@ -28,5 +28,5 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development :: Libraries',
         ],
-    packages = find_packages('reservation'),
+    packages = find_packages('django_reservations'),
 )
