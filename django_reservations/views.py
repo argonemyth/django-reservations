@@ -15,7 +15,6 @@ from schedule.views import get_occurrence
 from django_reservations.models import EventReservations
 from django_reservations.forms import RsvpForm
 
-@login_required
 def reservations(request, occurrence_id,
                          template_name='django_reservations/reservations.html'):
     """
